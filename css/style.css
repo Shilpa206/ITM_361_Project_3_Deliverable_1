@@ -70,12 +70,12 @@ footer p a{
 
 /* API Map Code */
 #map{
-  margin: 2.5em auto;
+  margin: 5.5em auto;
   display: block;
   box-sizing: border-box;
   width: 55%;
   height: 500px;
-  border: solid black 5px;
+  border: solid white 15px;
   border-radius: 20px;
 }
 @media screen and (max-width: 900px) and (min-width: 600px){
