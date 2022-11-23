@@ -1,16 +1,18 @@
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
-    center: { lat: 41.893516609387966,lng: 87.6297536812628}
+    zoom: 3,
+    center: { lat: 27.857252, lng: 81.958898},
   });
   
   var marker = new google.maps.Marker({
-    position: { lat: 41.893516609387966, lng: 87.6297536812628 },
+    position: { lat: 27.857252, lng: 81.958898},
     map: map,
+	label: "Florida,Miami",
+	animation: google.maps.Animation.DROP
   });
   
   var infowindow = new google.maps.InfoWindow({
-    content:"Tao, Chicago"
+    content:"Florida,Miami"
   });
   infowindow.open(map, marker);
 }
